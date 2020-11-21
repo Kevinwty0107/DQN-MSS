@@ -54,9 +54,9 @@ if __name__ == "__main__":
     """
     Please note that after adding this Greedy Algorithm, your running time will be much longer!!! 
     """
-    Greedy_filename = "/Users/wangtaiyi/Documents/Graduate/JHU/2020Spring/Deep Learning in Discrete Optimization/Final_project/score_result/greedy.txt"
+    Greedy_filename = "greedy.txt"
     file_greedy = open(Greedy_filename,"w")
-    score_filename = "/Users/wangtaiyi/Documents/Graduate/JHU/2020Spring/Deep Learning in Discrete Optimization/Final_project/score_result/score.txt"#!
+    score_filename = "score.txt"#!
     file_score = open(score_filename,"w")#!
     for i in tqdm(range(num_episodes)):
         score = 0
